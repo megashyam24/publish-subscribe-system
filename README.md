@@ -1,11 +1,25 @@
-- 👋 Hi, I’m @megashyam24
-- 👀 I’m interested in data analytics
-- 🌱 I’m currently learning machine learning and cloud computing
-- 💞️ I’m looking to collaborate on analytical projects
-- 📫 How to reach me linkedin:https://www.linkedin.com/in/mega-shyam-084480311?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSror95jQRAaQkM5ly3%2FLPA%3D%3D
+📡 Publish-Subscribe System
 
+An efficient Publish-Subscribe (Pub/Sub) System that enables multiple users to effortlessly share and receive real-time updates based on their chosen topics.
 
-<!---
-megashyam24/megashyam24 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This project demonstrates a scalable messaging pattern where publishers send data to topics, and subscribers receive updates instantly without direct coupling between them.
+
+Features
+
+Topic-based subscription: Users can subscribe to specific topics of interest
+
+Real-time updates: Leveraging WebSockets for instant message delivery
+
+Scalable architecture: Decouples publishers and subscribers for efficiency
+
+Persistent storage: Messages stored and managed using MySQL
+
+User-friendly design: Simple interface to manage topics and subscriptions
+
+Technologies Used
+
+Java – Core implementation of the system
+
+MySQL – Database for managing topics, subscriptions, and message logs
+
+WebSockets – Real-time communication channel for publishers and subs
